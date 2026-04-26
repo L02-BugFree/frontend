@@ -42,6 +42,6 @@ yarn-error.*
 
 # test results
 coverage/
-test-report/
+
 test_err.log
 test_out.txt
