@@ -58,9 +58,9 @@ describe('HomeScreen', () => {
     expect(() => fireEvent.changeText(searchInput, 'hello')).not.toThrow();
   });
 
-  it('pressing the chat button does not crash', () => {
-    const { getByTestId } = render(<HomeScreen />);
-    expect(() => fireEvent.press(getByTestId('chat-button'))).not.toThrow();
+  it('contains the time display on screen', () => {
+    const { getByText } = render(<HomeScreen />);
+    expect(getByText('9:41')).toBeTruthy();
   });
 
   it('contains contact names like John Walton', () => {
