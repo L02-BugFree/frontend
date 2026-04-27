@@ -1,20 +1,21 @@
 import { useState, useEffect, useCallback } from "react";
 import { View, Text, Image, TouchableOpacity, SafeAreaView, StatusBar } from "react-native";
+import { ONBOARDING_ASSETS } from "./Constants";
 
 const SLIDES = [
   {
     id: 0,
     logoType: "icon-text",
-    logoIcon: "https://api.builder.io/api/v1/image/assets/TEMP/e065ed3961a50238f44ddbd1244a90553219bec0?width=204",
-    heroImage: "https://api.builder.io/api/v1/image/assets/TEMP/c5c89ad94c300dc2d83fe333487189701794af28?width=776",
+    logoIcon: ONBOARDING_ASSETS.LOGO_ICON_0,
+    heroImage: ONBOARDING_ASSETS.HERO_IMAGE_0,
     heroShadow: false,
     description: "Schedule Overlay: Xếp chồng lịch trình, tìm giờ rảnh nhóm nhanh chóng.",
   },
   {
     id: 1,
     logoType: "image",
-    logoIcon: "https://api.builder.io/api/v1/image/assets/TEMP/0c4b6c6ce2b72de11cb4828aeb50665774c1504b?width=254",
-    heroImage: "https://api.builder.io/api/v1/image/assets/TEMP/76ddcc76b297d0e9ef0ad807d4505dc92d83c92b?width=776",
+    logoIcon: ONBOARDING_ASSETS.LOGO_ICON_1,
+    heroImage: ONBOARDING_ASSETS.HERO_IMAGE_1,
     heroShadow: true,
     description: "Promt-to-checklist: Tạo checklist quản lý tác vụ nhóm thuận tiện, an toàn.",
   },
@@ -118,7 +119,7 @@ export default function OnboardingScreen({ onNavigate }: { onNavigate?: () => vo
             {/* Language */}
             <View className="flex-row items-center gap-1.5">
               <Image
-                source={{ uri: "https://api.builder.io/api/v1/image/assets/TEMP/4c53497f94546fdd2ee84fe86c7e750c3b768dc2?width=24" }}
+                source={{ uri: ONBOARDING_ASSETS.VIETNAM_FLAG }}
                 className="w-3 h-3"
               />
               <Text className="font-medium text-[10px] text-[#6F7380] uppercase tracking-wider">
@@ -129,7 +130,7 @@ export default function OnboardingScreen({ onNavigate }: { onNavigate?: () => vo
             {/* Dark mode */}
             <View className="flex-row items-center gap-1.5">
               <Image
-                source={{ uri: "https://api.builder.io/api/v1/image/assets/TEMP/65bb3cf507651cab975f8f8df102d2a38839cd1c?width=23" }}
+                source={{ uri: ONBOARDING_ASSETS.DARK_MODE_ICON }}
                 className="w-[11px] h-[11px]"
               />
               <Text className="font-medium text-[10px] text-[#6F7380] uppercase tracking-wider">
