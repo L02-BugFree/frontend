@@ -2,6 +2,7 @@
 
 NexTime là ứng dụng hỗ trợ quản lý lịch trình nhóm, tạo checklist, và tìm giờ rảnh chung. Xây dựng bằng React Native + Expo.
 
+[![Test & Coverage](https://github.com/L02-BugFree/frontend/actions/workflows/test.yml/badge.svg)](https://github.com/L02-BugFree/frontend/actions/workflows/test.yml)
 ---
 
 ## 📊 CI & Quality Badges
