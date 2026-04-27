@@ -52,6 +52,17 @@ describe('HomeScreen', () => {
     expect(searchInput).toBeTruthy();
   });
 
+  it('allows typing into the search input without crashing', () => {
+    const { getByTestId } = render(<HomeScreen />);
+    const searchInput = getByTestId('search-input');
+    expect(() => fireEvent.changeText(searchInput, 'hello')).not.toThrow();
+  });
+
+  it('pressing the chat button does not crash', () => {
+    const { getByTestId } = render(<HomeScreen />);
+    expect(() => fireEvent.press(getByTestId('chat-button'))).not.toThrow();
+  });
+
   it('contains contact names like John Walton', () => {
     const { getAllByText } = render(<HomeScreen />);
     // There might be multiple instances due to the way Builder.io generates code (overlapping layers)
