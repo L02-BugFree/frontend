@@ -2,6 +2,16 @@ module.exports = {
   preset: "jest-expo",
   setupFiles: ["<rootDir>/jest.setup.js"],
   collectCoverage: true,
+  collectCoverageFrom: [
+    "**/*.{ts,tsx}",             // Quét tất cả file code TypeScript/React
+    "!**/node_modules/**",       // Bỏ qua thư viện
+    "!**/coverage/**",           // Bỏ qua thư mục chứa report
+    "!**/__mocks__/**",          // Bỏ qua các file mock
+    "!**/test-report/**",        // Bỏ qua thư mục html report
+    "!**/*.test.{ts,tsx}",       // Bỏ qua chính các file test
+    "!jest.config.js",
+    "!jest.setup.js"
+  ],
   coverageReporters: ["lcov", "text", "clover"],
   coverageThreshold: {
     global: {
