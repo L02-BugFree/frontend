@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1777244276175" clover="3.2.0">
+  <project timestamp="1777244276175" name="All files">
+    <metrics statements="53" coveredstatements="44" conditionals="10" coveredconditionals="5" methods="28" coveredmethods="13" elements="91" coveredelements="62" complexity="0" loc="53" ncloc="53" packages="1" files="2" classes="2"/>
+    <file name="HomeScreen.tsx" path="D:\252_MOBILE APPS\frontend\mobile\HomeScreen.tsx">
+      <metrics statements="41" coveredstatements="35" conditionals="2" coveredconditionals="0" methods="20" coveredmethods="9"/>
+      <line num="11" count="1" type="stmt"/>
+      <line num="12" count="4" type="stmt"/>
+      <line num="99" count="1" type="stmt"/>
+      <line num="323" count="1" type="stmt"/>
+      <line num="324" count="0" type="stmt"/>
+      <line num="326" count="0" type="stmt"/>
+      <line num="330" count="0" type="stmt"/>
+      <line num="340" count="1" type="stmt"/>
+      <line num="368" count="1" type="stmt"/>
+      <line num="369" count="0" type="stmt"/>
+      <line num="379" count="1" type="stmt"/>
+      <line num="406" count="1" type="stmt"/>
+      <line num="407" count="0" type="stmt"/>
+      <line num="415" count="1" type="stmt"/>
+      <line num="450" count="1" type="stmt"/>
+      <line num="451" count="0" type="stmt"/>
+      <line num="463" count="1" type="stmt"/>
+      <line num="496" count="1" type="stmt"/>
+      <line num="497" count="4" type="stmt"/>
+      <line num="686" count="1" type="stmt"/>
+      <line num="1038" count="1" type="stmt"/>
+      <line num="1039" count="4" type="stmt"/>
+      <line num="1061" count="1" type="stmt"/>
+      <line num="1121" count="1" type="stmt"/>
+      <line num="1125" count="4" type="stmt"/>
+      <line num="1133" count="1" type="stmt"/>
+      <line num="1173" count="1" type="stmt"/>
+      <line num="1174" count="4" type="stmt"/>
+      <line num="1189" count="1" type="stmt"/>
+      <line num="1215" count="1" type="stmt"/>
+      <line num="1216" count="4" type="stmt"/>
+      <line num="1234" count="1" type="stmt"/>
+      <line num="1307" count="1" type="stmt"/>
+      <line num="1308" count="4" type="stmt"/>
+      <line num="1327" count="1" type="stmt"/>
+      <line num="1385" count="1" type="stmt"/>
+      <line num="1386" count="4" type="stmt"/>
+      <line num="1417" count="1" type="stmt"/>
+      <line num="1518" count="1" type="stmt"/>
+      <line num="1519" count="4" type="stmt"/>
+      <line num="1537" count="1" type="stmt"/>
+    </file>
+    <file name="OnboardingScreen.tsx" path="D:\252_MOBILE APPS\frontend\mobile\OnboardingScreen.tsx">
+      <metrics statements="12" coveredstatements="9" conditionals="8" coveredconditionals="5" methods="8" coveredmethods="4"/>
+      <line num="4" count="1" type="stmt"/>
+      <line num="24" count="5" type="stmt"/>
+      <line num="26" count="5" type="stmt"/>
+      <line num="27" count="0" type="stmt"/>
+      <line num="30" count="5" type="stmt"/>
+      <line num="31" count="5" type="stmt"/>
+      <line num="32" count="0" type="stmt"/>
+      <line num="34" count="5" type="stmt"/>
+      <line num="37" count="5" type="stmt"/>
+      <line num="39" count="5" type="stmt"/>
+      <line num="83" count="10" type="stmt"/>
+      <line num="85" count="0" type="stmt"/>
+    </file>
+  </project>
+</coverage>

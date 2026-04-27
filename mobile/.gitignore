@@ -41,7 +41,5 @@ yarn-error.*
 /android
 
 # test results
-coverage/
-
 test_err.log
 test_out.txt
