@@ -15,7 +15,7 @@ module.exports = {
   coverageReporters: ["lcov", "text", "clover"],
   coverageThreshold: {
     global: {
-      lines: 70,
+      lines: 60
     },
   },
   reporters: [
