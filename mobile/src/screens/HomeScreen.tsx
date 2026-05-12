@@ -3,7 +3,7 @@ import { NativeStackNavigationProp } from "@react-navigation/native-stack";
 import * as React from "react";
 import { ScrollView, StyleSheet, Text, View, Pressable, TextInput } from "react-native";
 import { KeyboardAwareScrollView } from "react-native-keyboard-aware-scroll-view";
-import { Color, BoxShadow, StyleVariable } from "./GlobalStyles";
+import { Color, BoxShadow, StyleVariable } from "../styles/GlobalStyles";
 
 // --- Components ---
 
@@ -1295,7 +1295,7 @@ const styles_OutlinerScreen = StyleSheet.create({
   homeIndicatorIcon: {
     top: 15,
     left: 134,
-    boxShadow: BoxShadow.m3ElevationLight2,
+    ...BoxShadow.m3ElevationLight2,
     width: 134,
     height: 5,
     color: Color.greyscaleGrey80,
@@ -1515,7 +1515,7 @@ const styles_UtilityBar = StyleSheet.create({
 });
 
 
-const MainChatScreen = () => {
+const MainChatScreen = ({ onBack }: { onBack?: () => void }) => {
   return (
     <KeyboardAwareScrollView
       style={styles.mainChatScreen}

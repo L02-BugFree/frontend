@@ -21,7 +21,7 @@ jest.mock('react-native-keyboard-aware-scroll-view', () => {
   };
 }, { virtual: true });
 
-jest.mock('./GlobalStyles', () => ({
+jest.mock('../styles/GlobalStyles', () => ({
   Color: {
     lightLabelPrimary: '#000',
     greyscaleGrey80: '#808080',
